@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "RistrettoPro-Regular";
+  src: url('fonts/font.woff2') format('woff2'), url('fonts/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'URW DIN Arabic Cond';
+  src: url('fonts/URWDINArabicCond-Black.woff2') format('woff2'),
+    url('fonts/URWDINArabicCond-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Neusa';
+  src: url('fonts/Neusa-SemiBold.woff2') format('woff2'),
+    url('fonts/Neusa-SemiBold.woff') format('woff');
+}
+
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "RistrettoPro-Regular";
+}
+
+
+body {
+  display: none;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  background: url(images/bg.png), linear-gradient(190.9deg, rgba(202, 24, 24, 0.36) 0%, rgba(202, 24, 24, 0) 36.02%, rgba(26, 25, 25, 0.9) 84.1%, rgba(26, 25, 25, 0.9) 100%, rgba(128, 128, 128, 1) 100%)rgba(26, 25, 25, 0.7);
+}
+
+.center {
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 30vw;
+  height: 60vh;
+}
+
+#name {
+  color: white;
+  font-family: "RistrettoPro-Regular";
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+#ncolor {
+  color: rgb(206, 59, 59);
+  font-weight: bold;
+}
+
+.table-cont {
+  width: 30vw;
+  height: 61.4vh;
+  background-color: rgba(255, 255, 255, 0.070);
+}
+
+table {}
+
+tr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+td {
+  color: rgba(245, 245, 245, 0.918);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: lighter;
+  font-size: 1.3vw;
+}
+
+.name {
+  text-align: center;
+  width: 15vw;
+  height: 5vh;
+}
+
+.no {
+  text-align: center;
+  width: 7.5vw;
+  height: 5vh;
+}
+
+.points {
+  text-align: center;
+  width: 7.5vw;
+  height: 5vh;
+}
+
+.fa-trophy {
+  font-size: 1vw;
+}
+
+#gold {
+  color: gold;
+  text-shadow: 0px 0px 7px gold;
+}
+
+#silver {
+  color: rgb(241, 241, 241);
+  text-shadow: 0px 0px 7px rgb(241, 241, 241);
+}
+
+#bronze {
+  color: rgb(205, 127, 50);
+  text-shadow: 0px 0px 7px rgb(205, 127, 50);
+}
