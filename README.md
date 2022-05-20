@@ -1,4 +1,7 @@
 # f_top10
+
+Once you have download the file please change the resource name to f_top10! Thank you!
+
 An NUI Leaderboard that features the top10 of whatever you choose
 
 
